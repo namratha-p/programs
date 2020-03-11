@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suitename">
+	<groups>
+		<run>
+			 <include name="G3"></include>
+			 
+		</run>
+	</groups>
+	<test name="testsuite" verbose="2">
+		<classes>
+			<class name="fW_Testng_Groups.testsuite1"></class>
+			<class name="fW_Testng_Groups.testsuite2"></class>
+			<class name="fW_Testng_Groups.testsuite3"></class>		
+		</classes>
+	</test>
+</suite>

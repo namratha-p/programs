@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+	<listeners>
+		<listener class-name="data_provider_and_test_listerner.test_listener_override"></listener>
+	</listeners>
+	
+	<test name="test1" verbose="2">
+		<classes>
+			<class name="data_provider_and_test_listerner.Test_listener"></class>
+		</classes>
+	
+	</test>
+</suite>

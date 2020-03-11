@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+	<parameter name="url" value="https://www.cleartrip.com/"></parameter>
+	
+		<test name="test1" verbose="2">
+		<parameter name="browsername" value="chrome"></parameter>
+			<classes>
+				<class name="FW_Testng_crossbrowser_parameters.Crossbrowser"></class>
+			</classes>
+		</test>
+		
+		<test name="test2" verbose="2">
+		<parameter name="browsername" value="firefox"></parameter>
+		<classes>
+				<class name="FW_Testng_crossbrowser_parameters.Crossbrowser"></class>
+			</classes>
+		</test>
+		
+</suite>

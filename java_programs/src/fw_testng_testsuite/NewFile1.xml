@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suitename">
+	<test name="testsuite">
+		<classes>
+			<class name="FW_testng_testsuite.testclass1"></class>
+				<methods>
+					<include name="tc_002"></include>
+				</methods>	
+			<class name="FW_testng_testsuite.testclass2"></class>
+				<methods>
+					<include name="tc_005"></include>
+				</methods>	
+			<class name="FW_testng_testsuite.testclass3"></class>
+			<methods>
+					<exclude name="tc_007"></exclude>
+			</methods>
+				
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="default">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://www.facebook.com/"></parameter>
+	<parameter name="uid" value="userid"></parameter>
+	<parameter name="pwd" value="password"></parameter>
+	<parameter name="fname" value="firstname"></parameter>
+		<test name="testpara" verbose="2">
+			<classes>
+				<class name="FW_Testng_crossbrowser_parameters.parameters"></class>
+			</classes>
+		</test>
+</suite>

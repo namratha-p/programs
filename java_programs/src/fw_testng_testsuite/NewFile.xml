@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suitename">
+	<test name="testsuite" verbose="2">
+		<classes>
+			<class name="FW_testng_testsuite.testclass1"></class>
+			<class name="FW_testng_testsuite.testclass2"></class>
+			<class name="FW_testng_testsuite.testclass3"></class>
+			
+		</classes>
+	</test>
+</suite>

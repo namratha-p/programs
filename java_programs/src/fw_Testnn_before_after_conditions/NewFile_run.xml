@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+	<test name="beforeafter" verbose="2">
+		<classes>
+			<class name="FW_Testnn_before_after_conditions.test1"></class>
+			<class name="FW_Testnn_before_after_conditions.test2"></class>
+			<class name="FW_Testnn_before_after_conditions.Test4"></class>
+		</classes>
+	</test>
+	<test name="default" verbose="2">	
+		<classes>
+			<class name="FW_Testnn_before_after_conditions.test1"></class>
+			<class name="FW_Testnn_before_after_conditions.test2"></class>
+			<class name="FW_Testnn_before_after_conditions.test3"></class>
+		</classes>
+	</test>
+</suite>
